@@ -25,6 +25,7 @@ public class ScoreDeal {
 	}
 		public String Mix() {	
 			//最小值
+			
 			for(int i=0;i<slist.size();i++) {
 				mix=slist.get(0);
 				if(slist.get(i).compareTo(mix) <0)//string类型比较，若第一个大,返回大于0的值
